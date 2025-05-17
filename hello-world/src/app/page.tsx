@@ -21,7 +21,7 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-           Hello World - <b> The script of hello world changed by Nisho.</b>
+           <p className="text-158px"> NextJS turtorail started from here</p>
           </li>
         </ol>
 
