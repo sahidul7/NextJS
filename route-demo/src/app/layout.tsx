@@ -10,7 +10,29 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        
+    
+      
+        <header style={{ backgroundColor: '#f0f0f0' }}>
+          <div className="flex flex-col gap-4 align-center justify-center">
+            <h1 className="text-3xl font-bold underline">
+              Next.js 13.4
+            </h1>
+          </div>
+        </header>
+        
+        {children}
+
+        <footer style={{ backgroundColor: '#f0f0f0' }}>
+          <div className="flex flex-col gap-4 align-center justify-center">
+            <h1 className="text-3xl font-bold underline">
+              Footer
+            </h1>
+          </div>
+        </footer>
+      
+    </body>
     </html>
   )
 }
